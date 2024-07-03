@@ -1,0 +1,59 @@
+.site-footer {
+    background-color: gainsboro;
+    padding: 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* navigation bar area */
+
+.nav-bar-container {
+    position: relative;
+    border: 0.2px solid black;
+    background-color: deepskyblue;
+}
+
+.nav-bar-nav {
+    margin-left: 2%;
+    align-items: center;
+}
+
+.nav-bar-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-bar-nav a:hover {
+    color: gray;
+}
+
+.nav-bar-nav-r {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    align-items: center;
+}
+
+.nav-bar-nav-r {
+    margin-right: 2%;
+}
+
+.nav-bar-nav-r a {
+    color: white;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-bar-nav-r a:hover {
+    color: gray;
+}
+
+.home,
+.login {
+    margin-right: 5px;
+}

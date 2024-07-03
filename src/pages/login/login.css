@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    width: 340px;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -5px 5px 20px gray;
+}
+.login-container .login-title {
+    background-color: deepskyblue;
+    color: white;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.login {
+    position: relative;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.name-box {
+    background-color: deepskyblue;
+    border-radius: 3px;
+    border: .5px solid whitesmoke;
+    margin-top: 30px;
+}
+
+.name-field {
+    position: relative;
+    width: 180px;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 25px;
+    text-indent: 10px;
+}
+
+.password-box {
+    margin-top: 30px;
+    background-color: deepskyblue;
+    border-radius: 3px;
+    border: .5px solid whitesmoke;
+}
+
+.pwd-field {
+    position: relative;
+    width: 180px;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 25px;
+    text-indent: 10px; 
+
+}
+
+
+.reset {
+    position: relative;
+    left: -20%;
+}
+
+.for-reset {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 10px;
+}
+
+.for-reset:hover {
+    text-decoration: underline;
+    color: rgb(29, 102, 126);
+}
+.btn {
+    margin-top: 10%;
+    width: 50%; height: 15%;
+    text-align: center;
+    background-color: deepskyblue;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(29, 102, 126);
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+.sign-up-box p {
+    margin-right:  2px;
+}
+.sign-up-box a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+.sign-up-box a:hover {
+    text-decoration: underline;
+    color: rgb(29, 102, 126);
+}
+
+#icon-1 {
+    position: relative;
+    left: 5%; top: 5%;
+    font-size: 20px;
+}
+
+#icon-2 {
+    position: relative;
+    left: 5%; top: 5%;
+    font-size: 20px;
+}
