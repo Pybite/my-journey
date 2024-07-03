@@ -21,7 +21,7 @@ app.use('profile', require('./router/routes'));
 app.use(session({
     secret: process.env.jwtSecret,
     cookie:{ maxAge: 3600000},
-    knexStore,
+    store: knexStore,
     resave: false,
     saveUninitialized: false
 }));
