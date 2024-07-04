@@ -1,4 +1,3 @@
-const { ConnectSessionKnexStore } = require('connect-session-knex');
 const path = require('path');
 require('dotenv').config({
     override: true,
@@ -16,9 +15,9 @@ const knex = require('knex')({
     }
 });
 
-const knexStore = new ConnectSessionKnexStore({
-    knex,
-    tableName: 'sessions'
-});
 
-module.exports = knex, knexStore;
+
+
+
+
+module.exports = knex;
